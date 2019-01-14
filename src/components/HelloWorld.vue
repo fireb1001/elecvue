@@ -14,7 +14,6 @@
 
     <hr/>
 
-
     <div class="row">
       <div class="col-4" v-for="(location, idx) in locations" :key="idx">
         <div class="card" >
@@ -22,7 +21,7 @@
           <div class="card-body">
             <h5 class="card-title">{{ location.name }}</h5>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a> <span>&nbsp;</span>
+            <a href="#" class="btn btn-primary">Go there</a> <span>&nbsp;</span>
             <button @click="deleteLocation(location.id)" class="btn btn-danger"> Delete </button>
           </div>
         </div>
