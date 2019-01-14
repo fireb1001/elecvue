@@ -17,7 +17,9 @@ let settingsWindow
 protocol.registerStandardSchemes(['app'], { secure: true })
 function createWindow () {
   // Create the browser window.
-  win = new BrowserWindow({ width: 800, height: 600, webPreferences: {webSecurity: false} })
+  win = new BrowserWindow({  webPreferences: {webSecurity: false} })
+  win.maximize()
+
   imageWindow = new BrowserWindow({ width: 400, height: 400, parent: win, show: false})
   settingsWindow = new BrowserWindow({ width: 400, height: 400, parent: win, show: false})
 

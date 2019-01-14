@@ -1,6 +1,6 @@
 <template>
   <div >
-    <img :src="imageUrl" alt="image" style="max-width: 100%">
+    <progressive-img :src="imageUrl" style="max-width: 100%" />
   </div>
 </template>
 

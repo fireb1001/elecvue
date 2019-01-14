@@ -12,8 +12,12 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "firebase": "^5.7.3",
     "vue": "^2.5.21",
+    "vue-progressive-image": "^3.2.0",
     "vue-router": "^3.0.1",
+    "vuefire": "^2.0.0-alpha.20",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
